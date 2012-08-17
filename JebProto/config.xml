@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "com.villaduvin.jebProto"
+        versionCode="0.10" 
+        version   = "0.1.0">
+
+    <!-- versionCode is optional and Android only -->
+
+    <name>jebPrototype PhoneGap App</name>
+
+    <description>
+        Prototype Html5 app by gene ball 
+    </description>
+
+    <author href="http://villaduvin.com" email="geneball@gmail.com">
+        Gene Ball 
+    </author>
+
+</widget>
