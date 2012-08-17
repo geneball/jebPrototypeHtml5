@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!-- Consider specifying the language of your content by adding the `lang` attribute to <html> -->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+    <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+        <title>JEB prototype</title>
+        <meta name="JEB" content="JEB prototype site">
+
+        <!-- Mobile viewport optimized: h5bp.com/viewport -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-touch-fullscreen" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+        <link rel="stylesheet" href="css/main.css" />
+        <link rel="stylesheet" href="css/jeb.css" />
+        <link rel="shortcut icon" href="favicon.ico" />
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory: mathiasbynens.be/notes/touch-icons -->
+        <!-- More ideas for your <head> here: h5bp.com/d/head-Tips -->
+    </head>
+    <body>
+        <!-- Prompt IE 6 users to install Chrome Frame. Remove this if you support IE 6.
+        chromium.org/developers/how-tos/chrome-frame-getting-started -->
+        <!--[if lt IE 7]><p class="chromeframe">Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
+
+        <!-- Add your site or application content here -->
+
+        <!-- PAGE HEADER -->
+        <div id='jebBody' class='jebBody linearBg'>
+            <div id='jeb-LoadMsg' class='jebPanel jeb-LoadMsg hidden'>
+                A large short message box
+            </div>
+            <div id='jeb-Info' class='jebPanel jeb-Info hidden'>
+                Appropriate for displays of content that either wrap around or require multiple lines
+            </div>
+            <div id='jeb-Canvas' class='jebPanel jeb-Canvas hidden'>
+                Area for graphics or tables
+            </div>
+            <div id='jeb-Table' class='jebPanel jeb-Table hidden'>
+                <table>
+                    <tr>
+                        <th>Col A</th><th>Col B</th><th>Col C</th><th>Col D</th>
+                    </tr>
+                    <tr>
+                        <th>apple</th><th>orange</th><th>banana</th><th>plum</th>
+                    </tr>
+                    <tr>
+                        <th>bear</th><th>eagle</th><th>cow</th><th>dog</th>
+                    </tr>
+                    <tr>
+                        <th>aluminum</th><th>iron</th><th>helium</th><th>nickel</th>
+                    </tr>
+                </table>
+            </div>
+            <div id='jeb-header'>
+                JEB Header shared across all pages
+            </div>
+
+            <!-- CONTENT PAGES ARE IN THIS DIV -->
+            <div id='jebContent'>
+                <table >
+                    <tr>
+                        <td id='jeb-home' class='jebPage'><!-- PAGE:  HOME -->
+                        <div class='jeb-head'>
+                            Intro text for this JEB prototype home page
+                        </div>
+                        <div class='size1'>
+                            1 Is this text big enough to read?
+                        </div>
+                        <div class='size2'>
+                            2 Is this text big enough to read?
+                        </div>
+                        <div class='size3'>
+                            3 Is this text big enough to read?
+                        </div>
+                        <div class='size4'>
+                            4 Is this text big enough to read?
+                        </div>
+                        <div class='size5'>
+                            5 Is this text big enough to read?
+                        </div>
+                        <div class='size6'>
+                            6 Is this text big enough to read?
+                        </div>
+                        <div class='size7'>
+                            7 Is this text big enough to read?
+                        </div>
+                        <div class='size8'>
+                            8 Is this text big enough to read?
+                        </div>
+                        <div class='size9'>
+                            9 Is this text big enough to read?
+                        </div>
+                        <div class='size10'>
+                            10 Is this text big enough to read?
+                        </div>
+                        <div class='size11'>
+                            11 Is this text big enough to read?
+                        </div>
+                        <div class='size12'>
+                            12 Is this text big enough to read?
+                        </div>
+                        <div>
+                            Which row of text is big enough read comfortably?
+                            <table class="jebSetSize">
+                                <tr class='size10 jebButton'>
+                                    <td><a>1</a><a>2</a><a>3</a><a>4</a><a>5</a><a>6</a><a>7</a><a>8</a><a>9</a><a>10</a><a>11</a><a>12</a></td>
+                                </tr>
+                            </table>
+                        </div><td id='jeb-aboutus' class='jebPage hidden'><!-- PAGE:  ABOUT US -->
+                        <div class='jeb-head'>
+                            About Us:
+                        </div>
+                        <hr>
+                        <div>
+                            About Us info for JEB prototype
+                        </div></td>
+
+                        <td id='jeb-test' class='jebPage hidden'><!-- PAGE:  TEST -->
+                        <div class='jeb-head'>
+                            This Title and text fit comfortably:
+                        </div>
+                        <hr>
+                        <div>
+                            <p>
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                Lorem Ipsum has been the industry's standard dummy text ever since the
+                                1500s, when an unknown printer took a galley of type and scrambled it to
+                                make a type specimen book. It has survived not only five centuries, but
+                                also the leap into electronic typesetting, remaining essentially unchanged.
+                            </p>
+                            <p>
+                                0 "Lorem ipsum dolor
+                                22 sit amet, consectetur
+                                47 adipisicing elit, sed
+                                72 do eiusmod tempor
+                                94 incididunt ut labore
+                                118 et dolore magna
+                                139 aliqua. Ut enim ad
+                                163 minim veniam, quis
+                                187 nostrud exercitation
+                                212 ullamco laboris nisi
+                                237 ut aliquip ex ea
+                                259 commodo consequat.
+                                283 Duis aute irure
+                                304 dolor in reprehenderit
+                                330 in voluptate velit
+                                353 esse cillum dolore eu
+                                389 fugiat nulla pariatur."
+                            </p>
+                        </div></td>
+                        <!-- RIGHT NAV BAR --  shared by all pages -->
+                        <td class='jebNav jebPanels size8 jebButton'><a jebPanel="jeb-LoadMsg">LoadMsg</a>
+                        <br>
+                        <a jebPanel="jeb-Info">Info</a>
+                        <br>
+                        <a jebPanel="jeb-Canvas">Canvas</a>
+                        <br>
+                        <a jebPanel="jeb-Table">Table</a></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <!-- PAGE FOOTER -- shared by all pages -->
+        <div class="jebBodyEnd"></div>
+        <div id='jeb-footer' class="jebFoot jebLinks">
+            <table>
+                <tr>
+                    <td><a jebPage="jeb-home">Home</a></td><td>|</td>
+                    <td><a jebPage="jeb-aboutus">About Us</a></td><td>|</td>
+                    <td><a jebPage="jeb-test">Test</a></td><td>|</td>
+                </tr>
+            </table>
+        </div>
+        <!-- JavaScript at the bottom for fast page loading: http://developer.yahoo.com/performance/rules.html#js_bottom -->
+
+        <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+        <script>
+            window.jQuery || document.write('<script src="js/vendor/jquery-1.7.2.min.js"><\/script>')
+        </script>
+
+        <!-- scripts concatenated and minified via build script -->
+        <script src="js/plugins.js"></script>
+        <script src="js/jeb.js"></script>
+        <!-- end scripts -->
+    </body>
+</html>
