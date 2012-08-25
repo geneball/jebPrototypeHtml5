@@ -257,6 +257,8 @@ $(function() {
     });
     JEB.onTouchClick('.jebLinks', function(targ, event) {
         var pgID = event.currentTarget.attributes["jebPage"].nodeValue;
+        if (pgID=='other') 
+          window.location.href = "http://villaduvin.com/other/";
         history.pushState(pgID, $('#' + pgID).attr('title'), pgID);
         $('.jebPage').toggleClass('hidden', true);
         $('#' + pgID).toggleClass('hidden', false);
