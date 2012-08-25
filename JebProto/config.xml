@@ -3,7 +3,7 @@
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.villaduvin.jebProto"
         versionCode = "1"
-        version   = "0b">
+        version   = "0.1">
 
     <!-- versionCode is optional and Android only -->
 
